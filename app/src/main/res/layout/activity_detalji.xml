@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#ffcc66"
+    tools:context=".Detalji">
+
+    <Button
+        android:id="@+id/pocetna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Home"
+        android:textColor="#993300"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#FFFFCC" />
+
+    <TextView
+        android:id="@+id/naslovDetalji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#993300"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#993300"
+        android:id="@+id/bodyDetalji"
+        android:textStyle="bold|italic"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#993300"
+        android:id="@+id/imeDetalji"
+        android:textStyle="bold|italic"
+        android:gravity="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#993300"
+        android:id="@+id/emailDetalji"
+        android:textStyle="bold|italic"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/obrisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:rotation="0"
+        android:text="Delete"
+        android:textColor="#993300"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+
+        app:backgroundTint="#FFFFCC" />
+</LinearLayout>
